@@ -10,10 +10,11 @@ FireFox
 <br />
 Edge
 <br />
-safari
+Safari
 
 #用法
-    <script>
-        var test = JSON.parse('{cc:111,aa:1122}');
-        console.dir(test)
-    </script>
+<script src="feijson.js"></script>
+<script>
+    var test = JSON.parse('{cc:111,aa:1122}');
+    console.dir(test)
+</script>
