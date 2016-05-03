@@ -13,7 +13,7 @@ Edge
 Safari
 
 #用法
-<script>
-    var test = JSON.parse('{cc:111,aa:1122}');
-    console.dir(test)
-</script>
+    <script>
+        var test = JSON.parse('{cc:111,aa:1122}');
+        console.dir(test)
+    </script>
