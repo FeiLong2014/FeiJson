@@ -13,7 +13,6 @@ Edge
 Safari
 
 #用法
-<script src="feijson.js"></script>
 <script>
     var test = JSON.parse('{cc:111,aa:1122}');
     console.dir(test)
