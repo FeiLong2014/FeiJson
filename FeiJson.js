@@ -10,7 +10,7 @@
     var isSupportAppend = true;
     try {
         var tempScript = document.createElement('script');
-        tempScript.appendChild(document.createTextNode('var c=1;'));
+        tempScript.appendChild(document.createTextNode('(function(){var c=1;var d=c;})();'));
     }
     catch (ex) {
         isSupportAppend = false;
